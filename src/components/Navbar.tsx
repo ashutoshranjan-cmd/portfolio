@@ -65,7 +65,7 @@ export function Navbar() {
               className="p-2"
               onClick={() => setIsOpen(!isOpen)}
             >
-              {isOpen ? <X /> : <Menu />}
+              {/* {isOpen ? <X /> : <Menu />} */}
             </motion.button>
           </div>
         </div>
