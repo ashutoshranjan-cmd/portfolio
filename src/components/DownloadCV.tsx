@@ -6,10 +6,12 @@ export function DownloadCV() {
   
     const handleDownload = () => {
       const link = document.createElement("a");
-      link.href = './src/assets/Ashutosh_Resume_np.pdf';
-      link.download = "downloaded-file.pdf"; // Set the filename for download
+      link.href = 'https://ashutosh-ranjan-portfolio.netlify.app/Ashutosh_Resume_np.pdf';
+      link.download = "ashutosh-ranjan-resume-file.pdf"; // Set the filename for download
       link.click();
     };
+   
+    
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
@@ -17,6 +19,7 @@ export function DownloadCV() {
       transition={{ duration: 0.5 }}
       className="fixed bottom-8 right-8 z-50"
     >
+      
       <Button
         size="lg"
         className="rounded-full shadow-lg"
