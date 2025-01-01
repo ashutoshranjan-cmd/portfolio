@@ -14,7 +14,7 @@ export function Hero() {
         </Canvas>
       </div>
       
-      <div className="z-10 text-center space-y-8">
+      <div className="z-50 text-center space-y-8">
     
         <motion.h1
           initial={{ opacity: 0, y: 20 }}

@@ -38,7 +38,7 @@ export const projects = [
     github: "https://github.com/ashutoshranjan-cmd/getreelcode.git",
     demo: "https://demo.com",
     tags: ["React", "Rapid Api", "MongoDB"],
-    link: 'ttps://get-reel-by-ashutosh.netlify.app/',
+    link: 'https://get-reel-by-ashutosh.netlify.app/',
     features: [
       "Download reel using link",
       "Paste button to paste link to input section",
