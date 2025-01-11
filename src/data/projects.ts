@@ -66,7 +66,7 @@ export const projects = [
     github: "https://github.com/ashutoshranjan-cmd/url_shortener.git",
     demo: "https://demo.com",
     tags: ["React", "ShadCn UI", "Supabase", "Javascript"],
-    link: 'https://trimmer-url.netlify.app/link/4',
+    link: 'https://trimmer-url.netlify.app/',
     features: [
       "URL Trimming",
       "Number clicks on the URL",
