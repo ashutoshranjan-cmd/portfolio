@@ -4,12 +4,13 @@ import { Button } from "@/components/ui/button";
 
 export function DownloadCV() {
   
-    const handleDownload = () => {
-      const link = document.createElement("a");
-      link.href = 'https://ashutosh-ranjan-portfolio.netlify.app/Ashutosh_Resume_np.pdf';
-      link.download = "ashutosh-ranjan-resume-file.pdf"; // Set the filename for download
-      link.click();
-    };
+  const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = 'https://ashutosh-ranjan-portfolio.netlify.app/Resume_Ashutosh.pdf';
+  link.download = "Resume_Ashutosh.pdf"; // Specify the name for the downloaded file
+  link.click();
+};
+
    
     
   return (
